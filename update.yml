@@ -3,7 +3,7 @@
   become: true
   become_user: root
   vars:
-    docker_compose_version: "1.28.5"
+    docker_compose_version: "1.29.2"
   tasks:
     - name: Update apt repo and cache on all Debian/Ubuntu boxes
       apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
