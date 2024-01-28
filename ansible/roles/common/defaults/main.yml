@@ -1,3 +1,3 @@
 ---
 
-apt-update-upgrade: True
+apt_update_upgrade: True

@@ -3,4 +3,4 @@
 - name: apt update and upgrade
   include_tasks:
     file: apt-update-upgrade.yml
-  when: apt-update-upgrade
+  when: apt_update_upgrade
