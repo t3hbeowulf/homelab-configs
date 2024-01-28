@@ -1,0 +1,21 @@
+---
+
+- hosts: hypervisors
+  vars:
+    ansible_host_key_checking: false
+  become: false
+
+  tasks:
+  #  - name: Remove no valid sub popup
+  #    ansible.builtin.replace:
+  #      path: "{{ proxmoxlib_path }}"
+  #      regexp: >-
+  #        (^\s+)(Ext.Msg.show\(\{\s+title:\s+gettext\('No valid subscription)
+  #      replace: '\1void({ //\2'
+  #    notify: Restart pveproxy
+
+    - name: Update apt packages
+      apt:
+        update_cache: yes
+        upgrade: yes
+
