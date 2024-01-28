@@ -1,9 +1,9 @@
 ## set up ssh user name and path to python3 ##
 [all:vars]
-ansible_user='beowulf'
-ansible_become=yes
-ansible_become_method=sudo
-ansible_python_interpreter='/usr/bin/env python3'
+#ansible_user='beowulf'
+#ansible_become=yes
+#ansible_become_method=sudo
+#ansible_python_interpreter='/usr/bin/env python3'
  
 ##########################
 ## our server names
@@ -12,3 +12,11 @@ ansible_python_interpreter='/usr/bin/env python3'
 ###########################
 [servers]
 docker-server
+
+[hypervisors]
+pve-sbx00
+pve-sbx01
+pve-sbx02
+pve-sbx03
+pve-sbx04
+

@@ -1,0 +1,12 @@
+[sandbox]
+#192.168.1.210 ansible_port=22
+#192.168.1.211 ansible_port=22
+#192.168.1.212 ansible_port=22
+#192.168.1.213 ansible_port=22
+#192.168.1.214 ansible_port=22
+
+pve-sbx00
+pve-sbx01
+pve-sbx02
+pve-sbx03
+pve-sbx04
