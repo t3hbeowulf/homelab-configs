@@ -1,5 +1,3 @@
 ---
 
-remove_nag: True
-remove_enterprise_repo: True
-add_no_subscription_repo: True
+apt-update-upgrade: True

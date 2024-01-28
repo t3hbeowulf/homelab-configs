@@ -1,5 +1,5 @@
 ## set up ssh user name and path to python3 ##
-[all:vars]
+#[all:vars]
 #ansible_user='beowulf'
 #ansible_become=yes
 #ansible_become_method=sudo
@@ -19,4 +19,3 @@ pve-sbx01
 pve-sbx02
 pve-sbx03
 pve-sbx04
-

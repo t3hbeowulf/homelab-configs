@@ -1,4 +1,7 @@
 ---
+
+## This is using the legacy all-in-one file structure... 
+#   it needs these steps broken out into the ansible-galaxy pattern.
 - hosts: servers
   become: true
   become_user: root

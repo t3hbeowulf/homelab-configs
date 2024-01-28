@@ -1,6 +1,6 @@
 ---
 
-- import_playbook: playbook-hypervisors.yml
+- import_playbook: hypervisors.yml
 
 # - hosts: hypervisors
 #   vars:
