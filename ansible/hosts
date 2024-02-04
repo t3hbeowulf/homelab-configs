@@ -1,9 +1,8 @@
-## set up ssh user name and path to python3 ##
+## set up ssh user name if necessary ##
 #[all:vars]
-#ansible_user='beowulf'
+#ansible_user='YOUR_USERNAME_HERE'
 #ansible_become=yes
 #ansible_become_method=sudo
-#ansible_python_interpreter='/usr/bin/env python3'
  
 ##########################
 ## our server names
